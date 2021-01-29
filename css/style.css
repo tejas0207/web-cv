@@ -65,19 +65,35 @@ a:hover{
     left: 300px;
     bottom: 300px;
 }
+.edu-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
 .skill-row{
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
 
 }
-.skill-img{
-    width: 25%;
-    float: left;
-    margin-right: 30px;
+.exp-row{
+     width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.project-row{
+     width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.aboutme{
+     width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
 }
 .profile{
     padding-bottom: 20px;
+    border-radius: 50%;
 }
 .contact-msg{
     width: 40%;
@@ -169,5 +185,6 @@ a:hover{
     height: 80%;
     object-fit: cover;
 }
+
 
   
