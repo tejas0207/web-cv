@@ -1,56 +1,160 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Tejas Gupta</title>
-  <link rel="stylesheet" href="css/style.css">
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> 
+    <title>Dark Mode</title> 
+    <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-</head>
-<body>
+	
+	<script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"> 
+	</script> 
+	
+	<style>  
+		.mode { 
+            float:right;
+            padding-top: 10px; 
+		} 
+		.change { 
+			cursor: pointer; 
+			border: 1px solid #555; 
+			border-radius: 40%; 
+			width: 20px; 
+			text-align: center; 
+			padding: 5px; 
+			margin-left: 8px; 
+		} 
+		.dark{ 
+			background-color: #222; 
+			color: #e6e6e6; 
+		} 
+	</style> 
+</head> 
+
+<body> 
+	
     <div class="top-container">
-      <img class="top-cloud" src="images/cloud.png" alt="cloud">
-  <h1>I'm Tejas</h1>
-  <h2>a creator</h2>
-  <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
-  <img src="images/mountain.png" alt="mountain">
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img class="profile" src="images/circle-cropped.png" alt="" width="200" height="200">
-      <h2>Hello</h2>
-      <p class="intro">I'm a cyber security and web-development enthusiast, currently persuing Computer Engineering .</p>
+        <img class="top-cloud" src="images/cloud.png" alt="cloud">
+    <h1>I'm Tejas</h1>
+    <h2 name="oneword">a creator</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+    <img src="images/mountain.png" alt="mountain">
     </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills</h2>
-      <div class="skill-row">
-        <img class="skill-img" src="images/circle-cropped (1).png" alt="">
-        <h3>cyber-security</h3>
-        <p>I have knowledge on website security. I have also done internship in the field of cyber cyber-security where i tested many website whether it is secure or not from cyber attacks?</p>
+    <div class="mode"> 
+        Dark mode:			 
+        <span class="change">OFF</span> 
+    </div>
+    <div class="middle-container">
+              <div class="profile">
+        <img class="profile" src="images/tejass (1).png" alt="" width="200" height="200">
+        <h2>Hello</h2>
+        <p class="intro">I'm a cyber security and web-development enthusiast, currently persuing Computer Engineering .</p>
       </div>
-      <div class="skill-row">
-        <img class="skill-img" src="images/circle-cropped (2).png" alt="">
-        <h3>web-development</h3>
-        <p>I'm a front end web developer.I have knowledge of html , css , bootstrap , React js , javascript.</p>
+      <hr>
+        <div class="education">
+        <h2>My Education</h2>
+        <div class="edu-row">
+          
+            <h3 >Bachelor of Engineering - Computer Science</h3>
+            <p id="clg">Watumull institute of Technology<br><br>2019-present</p>
+            
+        </div>
+        
       </div>
+        <hr>
+      <div class="skills">
+        <h2>My Skills</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="box">
+          <span class="img" style="--i:1;"><img src="images/cloud-computing.png" alt=""></span>
+          <span class="img" style="--i:2;"><img src="images/download (2).png" alt=""></span>
+          <span class="img" style="--i:3;"><img src="images/download (3).jpg" alt=""></span>
+          <span class="img" style="--i:4;"><img src="images/download (4).jpg" alt=""></span>
+          <span class="img" style="--i:5;"><img src="images/download (5).jpg" alt=""></span>
+          <span class="img" style="--i:6;"><img src="images/download (6).jpg" alt=""></span>
+          <span class="img" style="--i:7;"><img src="images/images (1).jpg" alt=""></span>
+          <span class="img" style="--i:8;"><img src="images/github.png" alt=""></span>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      </div>
+      <hr>
+        <div class="exp">
+        <h2>My Experience</h2>
+        <div class="exp-row">
+          
+          <h3>Cloud Counselage [Apr 2020-Aug 2020 ]</h3>
+          <p>I have worked for cloud counselage as a cyber security intern for a period of 5 month in which I did security analysis of many website.</p>
+        </div>
+        <div class="exp-row">
+          
+          <h3>Specialist IN Python with Full Stack Development Training [Apr 2020-Sep 2020 ]</h3>
+          <p>Got to learn different concepts in python. Many myth, use-cases,Networking was also part of this Training. </p>
+        </div>
+        <div class="exp-row">
+          
+          <h3>RH294 - Linux Automation Using Ansible (RHCE8) Training Ambassador </h3>
+          <p>It was a great Ansible journey, Also I am glad that many students got to learn ansible as I was guiding them in practicals.</p>
+        </div>
+        
+        
+      </div>
+        
+        
+      
+        <hr>
+        <div class="summary">
+        <h2>About me</h2>
+        <div class="aboutme">
+          
+          
+      <p> I'm a tech enthusiast working to better understand the core concepts behind different popular Technological Fields like Data Structure and Algorithms, cyber-security, Data Science, DevOps Tools, Cloud Computing, Big Data, Web Technologies, Networking, etc.
+      </p>
+        </div>
+        </div>    
+         
+        <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you want to contact me</h3>
+        <p class="contact-msg">Any doubts or suggestions regarding my website, please feel free to send message via mail by clicking on contact-me button below.</p>
+        <a class="btn" href="mailto:2017tejasgupta@gmail.com">CONTACT ME</a>
+      </div>
+      
     </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>If you want to contact me</h3>
-      <p class="contact-msg">Any doubts or suggestions regarding my website, please feel free to send message via mail by clicking on contact-me button below.</p>
-      <a class="btn" href="mailto:2017tejasgupta@gmail.com">CONTACT ME</a>
+    
+    
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/tejas-gupta-9b20731a5">LinkedIn</a>
+      <a class="footer-link" href="https://github.com/tejas0207">Github</a>
+      <a class="footer-link" href="https://www.instagram.com/heart_beat_07/">Instagram</a>
+      
+      <p class="copyright">© 2021 Tejas Gupta.</p>
     </div>
-  </div>
-  
-  
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/tejas-gupta-9b20731a5">LinkedIn</a>
-    <a class="footer-link" href="https://github.com/tejas0207">Github</a>
-    <p class="copyright">© 2020 Tejas Gupta.</p>
-  </div>
-  
-</body>
-</html>
+	
+	<script> 
+		$( ".change" ).on("click", function() { 
+			if( $( "body" ).hasClass( "dark" )) { 
+				$( "body" ).removeClass( "dark" ); 
+				$( ".change" ).text( "OFF" ); 
+			} else { 
+				$( "body" ).addClass( "dark" ); 
+				$( ".change" ).text( "ON" ); 
+			} 
+		}); 
+	</script> 
+</body> 
+
+</html> 
